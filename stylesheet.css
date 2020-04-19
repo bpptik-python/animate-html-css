@@ -145,8 +145,6 @@ header {
 .lesson {
   float: left;
   width: 25%;
-  animation-name: slide;
-  animation-duration: 3s;
 }
 
 .lesson-icon {
@@ -212,14 +210,4 @@ footer {
   font-size: 25px;
   padding: 21px 0;
   display: none;
-}
-
-@-webkit-keyframes slide {
-    0% { opacity: 0; margin-left: -250px; }
-    100% { opacity: 1; margin-left: 0; }
-}
-
-@keyframes slide {
-    0% { opacity: 0; margin-left: -250px; }
-    100% { opacity: 1; margin-left: 0; }
 }
