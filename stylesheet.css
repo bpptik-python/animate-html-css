@@ -1,3 +1,5 @@
+/* Mulai code Anda dari baris terakhir */
+
 * {
   box-sizing: border-box;
 }
@@ -141,10 +143,10 @@ header {
 }
 
 .lesson {
-  animation-name: slide;
-  animation-duration: 4s;
   float: left;
   width: 25%;
+  animation-name: slide;
+  animation-duration: 3s;
 }
 
 .lesson-icon {
@@ -213,6 +215,11 @@ footer {
 }
 
 @-webkit-keyframes slide {
+    0% { opacity: 0; margin-left: -250px; }
+    100% { opacity: 1; margin-left: 0; }
+}
+
+@keyframes slide {
     0% { opacity: 0; margin-left: -250px; }
     100% { opacity: 1; margin-left: 0; }
 }
